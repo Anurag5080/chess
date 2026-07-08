@@ -2,14 +2,6 @@ import { WebSocket } from "ws";
 import { Game } from "./Game";
 import { INIT_GAME, MOVE } from "./messages";
 
-
-
-
-
-
-
-
-
 export class GameManager {
     private games: Game[];
     private pendingUser: WebSocket | null = null;

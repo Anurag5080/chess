@@ -8,6 +8,7 @@ export class GameManager {
     private users: WebSocket[];
 
 
+
     constructor() {
         this.games = [];
         this.users = [];
